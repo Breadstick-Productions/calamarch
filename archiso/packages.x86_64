@@ -6,7 +6,7 @@ b43-fwcutter
 base
 bind
 brltty
-broadcom-wl
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 cloud-init
@@ -49,7 +49,7 @@ less
 lftp
 libfido2
 libusb-compat
-linux
+#linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
@@ -134,12 +134,12 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-alci-dwm
+#alci-dwm
 #alci-dwm-nemesis
 alci-calamares
 #alci-calamares-dev
-alci-calamares-config
-#alci-calamares-config-btrfs
+#alci-calamares-config
+alci-calamares-config-btrfs
 #alci-calamares-config-dev
 #alci-calamares-config-hardened
 #alci-calamares-config-lts
@@ -164,8 +164,8 @@ xorg-xrdb
 mkinitcpio-openswap
 
 ##### you can also use nmtui from the terminal
-#networkmanager
-#network-manager-applet
+networkmanager
+network-manager-applet
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -173,9 +173,9 @@ mkinitcpio-openswap
 
 ##### xorg applications
 
-#xorg-server
-#xorg-apps
-#neofetch
+xorg-server
+xorg-apps
+neofetch
 
 
 ##### Drivers for graphical cards
@@ -186,13 +186,13 @@ mkinitcpio-openswap
 #to have fullscreen
 #virtualbox-guest-utils
 
-#xf86-video-intel
-#xf86-video-amdgpu
+xf86-video-intel
+xf86-video-amdgpu
 #xf86-video-nouveau
 
-#nvidia
-#nvidia-settings
-#nvidia-utils
+nvidia
+nvidia-settings
+nvidia-utils
 
 
 
@@ -203,8 +203,8 @@ mkinitcpio-openswap
 
 ##### sddm display manager
 
-#sddm
-#alci-sddm-plasma-archpaint
+sddm
+alci-sddm-plasma-archpaint
 
 ##### gdm display manager
 
@@ -214,7 +214,7 @@ mkinitcpio-openswap
 
 ##### want to have base-devel group
 
-#base-devel
+base-devel
 
 ##### want to have linux-headers
 
@@ -227,7 +227,7 @@ mkinitcpio-openswap
 #test
 #xfce4
 #xfce4-goodies
-#neofetch
+neofetch
 
 
 ##### want to add/use the ArcoLinux repos
@@ -240,8 +240,8 @@ mkinitcpio-openswap
 
 ##### want to add/use the Chaotic repo
 
-#chaotic-mirrorlist
-#chaotic-keyring
+chaotic-mirrorlist
+chaotic-keyring
 
 #test
 #xcursor-sweet
@@ -262,7 +262,45 @@ mkinitcpio-openswap
 #### want have a btrfs format
 #### use alci-calamares-config-btrfs 
 
-#timeshift
-#grub-btrfs
-#timeshift-autosnap
-git
+timeshift
+grub-btrfs
+timeshift-autosnap
+
+linux
+linux-headers
+
+plasma-meta
+dolphin
+konsole
+yakuake
+spectacle
+packagekit-qt5
+
+#utils
+gwenview
+#gscan2pdf 
+okular
+vlc
+yay
+#pamac-aur 
+#cheese 
+mailspring
+gnome-keyring
+fcitx5
+fcitx5-chinese-addons
+#fcitx5-googlepinyin
+fcitx5-mozc
+flatpak
+discover
+grub-customizer
+partitionmanager
+libreoffice-fresh
+
+#browser
+google-chrome
+opera-ffmpeg-codecs
+
+#epicfonts
+ttf-segoe-ui-variable
+noto-fonts-emoji
+nerd-fonts-jetbrains-mono
