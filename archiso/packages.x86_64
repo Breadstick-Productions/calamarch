@@ -279,11 +279,11 @@ packagekit-qt5
 
 #utils
 gwenview
-gscan2pdf 
+#gscan2pdf 
 okular
 vlc
 yay
-pamac-aur 
+#pamac-aur 
 htop
 #cheese 
 mailspring
@@ -297,7 +297,7 @@ discover
 grub-customizer
 partitionmanager
 libreoffice-fresh
-bashtop 
+#bashtop 
 rtl88xxau-aircrack-dkms-git
 
 #browser
