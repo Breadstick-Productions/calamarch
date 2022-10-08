@@ -303,7 +303,7 @@ grub-customizer
 partitionmanager
 libreoffice-fresh
 #bashtop 
-rtl88xxau-aircrack-dkms-git
+rtl88x2bu-aircrack-dkms
 reflector
 
 #browser
@@ -315,5 +315,11 @@ ttf-segoe-ui-variable
 noto-fonts-emoji
 nerd-fonts-jetbrains-mono
 
+#setting packages
 alg-plasma-settings
 kvantum
+office-settings
+grub-customizer
+kwalletmanager
+ksysguard
+
