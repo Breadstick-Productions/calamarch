@@ -293,6 +293,8 @@ mailspring
 gnome-keyring
 fcitx5
 fcitx5-chinese-addons
+fcitx5-qt
+fcitx5-gtk
 #fcitx5-googlepinyin
 fcitx5-mozc
 flatpak
@@ -302,6 +304,7 @@ partitionmanager
 libreoffice-fresh
 #bashtop 
 rtl88xxau-aircrack-dkms-git
+reflector
 
 #browser
 google-chrome
