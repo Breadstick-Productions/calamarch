@@ -304,6 +304,7 @@ partitionmanager
 libreoffice-fresh
 #bashtop 
 reflector
+gnome-network-displays
 
 #browser
 google-chrome
@@ -320,4 +321,4 @@ kvantum
 office-settings
 kwalletmanager
 ksysguard
-
+kcm-wacomtablet 
