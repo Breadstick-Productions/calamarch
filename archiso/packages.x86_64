@@ -328,3 +328,4 @@ kdialog
 winetricks
 #lib32-nvidia-utils
 #proton-ge-custom
+fcitx5-configtool
