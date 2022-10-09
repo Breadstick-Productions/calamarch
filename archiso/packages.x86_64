@@ -282,27 +282,22 @@ packagekit-qt5
 
 #utils
 gwenview
-#gscan2pdf 
 okular
 vlc
 yay
-#pamac-aur 
 htop
-#cheese 
 mailspring
 gnome-keyring
 fcitx5
 fcitx5-chinese-addons
 fcitx5-qt
 fcitx5-gtk
-#fcitx5-googlepinyin
 fcitx5-mozc
 flatpak
 discover
 grub-customizer
 partitionmanager
 libreoffice-fresh
-#bashtop 
 reflector
 gnome-network-displays
 
@@ -321,4 +316,8 @@ kvantum
 office-settings
 kwalletmanager
 ksysguard
-kcm-wacomtablet 
+kcm-wacomtablet
+iwd
+kamoso
+pamac-aur
+gscan2pdf
