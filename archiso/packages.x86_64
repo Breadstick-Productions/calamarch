@@ -329,3 +329,10 @@ winetricks
 #lib32-nvidia-utils
 #proton-ge-custom
 fcitx5-configtool
+adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-tw-fonts
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+ttf-paratype
+ttf-mgopen
+
