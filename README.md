@@ -8,6 +8,15 @@ If somehow `chaotic` doesn't work for you, you need to do this:
 pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com; pacman-key --lsign-key FBA220DFC880C036
 ```
 
+## Features
+- Chaotic AUR and multilib enabled
+- Wine installed
+- Bundle of software
+
+## TBA in next month's build:
+`cups` 
+waiting for user input
+
 # Arch Linux Calamares Installer or ALCI
 
 Use the correct version of Archiso to build the iso.
