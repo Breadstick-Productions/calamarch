@@ -17,6 +17,10 @@ pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com; pacman-
 `cups` 
 waiting for user input
 
+# Picture(s)
+![image](https://user-images.githubusercontent.com/95167946/194882012-24f8f209-5673-4369-8d95-606a7cadff9f.png)
+
+
 # Arch Linux Calamares Installer or ALCI
 
 Use the correct version of Archiso to build the iso.
