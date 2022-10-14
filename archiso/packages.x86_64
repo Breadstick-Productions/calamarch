@@ -341,3 +341,6 @@ ark
 unrar
 filelight
 kcalc
+wine-mono
+wine-gecko
+lib32-nvidia-utils
