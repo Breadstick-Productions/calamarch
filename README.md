@@ -14,9 +14,26 @@ pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com; pacman-
 - Bundle of software
 
 ## TBA in next month's build:
-`cups` 
-waiting for user input
+...
 
+# Tips and Tricks
+**Games disabling compositor/desktop effects**
+
+Go to `System Settings > Display and Monitor > Compositor` and uncheck "Allow applications to block compositing"
+
+**I'm using dual GPUs (run `neofetch` in terminal and check if you have 2 GPUs)**
+
+install `optimus-manager-qt` through Add/Remove Software.
+
+**I'm not using NVIDIA, but using AMDGPU**
+
+First, remove `nvidia-utils` and `lib32-nvidia-utils`
+
+Then, install `amdvlk` and `lib32-amdvlk`
+
+**Wifi not working**
+
+Use USB tethering with your phone and install the correct drivers. Broadcom drivers are already installed as part of the package.
 # Picture(s)
 ![image](https://user-images.githubusercontent.com/95167946/194882012-24f8f209-5673-4369-8d95-606a7cadff9f.png)
 
