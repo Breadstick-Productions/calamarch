@@ -31,9 +31,21 @@ First, remove `nvidia-utils` and `lib32-nvidia-utils`
 
 Then, install `amdvlk` and `lib32-amdvlk`
 
+If you're using intel graphics, install `vulkan-intel` and `lib32-vulkan-intel`
+
+It is always good to install the 32-bit packages too (WINE requires them)
+
 **Wifi not working**
 
 Use USB tethering with your phone and install the correct drivers. Broadcom drivers are already installed as part of the package.
+
+**My step-by-step problem solving for WINE problems (Lutris edition)**
+
+- First, I enable/disable DXVK
+- Then, I enable/disable NVIDIA prime offload settings
+- Also, if you're using a laptop with two GPUs, switch the NVIDIA and use that as default
+- If all else fails, I search the web for solution
+- For last resort, I submit an issue on GitHub or forums. 
 # Picture(s)
 ![image](https://user-images.githubusercontent.com/95167946/194882012-24f8f209-5673-4369-8d95-606a7cadff9f.png)
 
