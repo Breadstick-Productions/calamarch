@@ -344,6 +344,11 @@ kcalc
 wine-mono
 wine-gecko
 lib32-nvidia-utils
-nerd-fonts-droid-sans-mono
 reflector-simple
 print-manager
+ndiswrapper
+hplip
+gutenprint
+cups-pdf
+foomatic-db-gutenprint-ppds
+exe-thumbnailer
