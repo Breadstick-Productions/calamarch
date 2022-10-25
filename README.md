@@ -1,5 +1,7 @@
 # ALCI STABLE
 
+Join if you have problems: https://discord.gg/RD7XFBzBZZ 
+
 Guys here's the drive link: https://drive.google.com/drive/folders/1ParhxOUlfZlA_raqt4vCkSyZjUPYN2Uf?usp=sharing 
 
 If somehow `chaotic` doesn't work for you, you need to do this:
@@ -12,7 +14,7 @@ pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com; pacman-
 - Chaotic AUR and multilib enabled
 - Wine installed
 - Bundle of software
-
+- Printing
 ## TBA in next month's build:
 ...
 
