@@ -346,9 +346,10 @@ wine-gecko
 lib32-nvidia-utils
 reflector-simple
 print-manager
-ndiswrapper
+#ndiswrapper
 hplip
 gutenprint
 cups-pdf
 foomatic-db-gutenprint-ppds
 exe-thumbnailer
+kwallet-pam
