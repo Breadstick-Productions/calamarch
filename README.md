@@ -51,6 +51,23 @@ Use USB tethering with your phone and install the correct drivers. Broadcom driv
 # Picture(s)
 ![image](https://user-images.githubusercontent.com/95167946/194882012-24f8f209-5673-4369-8d95-606a7cadff9f.png)
 
+# Developer's manual for building:
+
+In order to build `calamarch`, you need to update your system first:
+```
+sudo pacman -Syu
+```
+Then, clone the `alci-pkgbuild` repo and cd into the calamares PKGBUILD directory. Run a `makepkg -s` then put the `pkg.tar.zst` in `/path/to/calamarch/alci_local_repo/x86_64`. 
+
+Run the `update-database.sh` file in `calamarch/alci_local_repo`. Then, edit the file `calamarch/archiso/pacman.conf` file to include the local repo (change the /home/path/to/calamarch) to where you store this folder (`calamarch`). Leave the ones with `$` alone.  
+
+The real building process begins. Head into the `installation-scripts` directory. Run script 30 if you're building for the first time and run script 40 if you already built the iso once.
+
+Test the iso in Virtualbox.
+
+## Which files can I modify
+
+The `archiso/packages.x86_64` file contains all the packages that will be installed on the iso. Note that the iso does not require an internet connection. The `archiso/pacman.conf` is the pacman configuration when you build the iso, it is not the same on the installed system. The actual `pacman.conf` file that will be installed is located inside `archiso/airootfs/etc/`, which also includes other configurations that will be installed on your system.
 
 # Arch Linux Calamares Installer or ALCI
 
