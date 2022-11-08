@@ -344,7 +344,7 @@ kcalc
 wine-mono
 wine-gecko
 lib32-nvidia-utils
-reflector-simple
+#reflector-simple
 print-manager
 #ndiswrapper
 hplip
