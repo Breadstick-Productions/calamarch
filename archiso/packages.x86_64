@@ -353,3 +353,6 @@ cups-pdf
 foomatic-db-gutenprint-ppds
 exe-thumbnailer
 kwallet-pam
+chaotic-keyring
+chaotic-mirrorlist
+audiocd-kio
