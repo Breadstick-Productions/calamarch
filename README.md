@@ -33,6 +33,8 @@ Install `amdvlk` and `lib32-amdvlk`
 
 If you're using intel graphics, install `vulkan-intel` and `lib32-vulkan-intel`
 
+In general, multiple Vulkan drivers can coexist, however with NVIDIA sometimes the NVIDIA Vulkan drivers may not be detected if other drivers are installed. Make sure you are using either "Hybrid" or "NVIDIA/AMD" graphics mode through Optimus Manager on a dual GPU laptop.
+
 It is always good to install the 32-bit packages too (WINE requires them)
 
 https://wiki.archlinux.org/title/Vulkan#Installation 
