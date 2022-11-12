@@ -1,4 +1,4 @@
-# ALCI STABLE
+# CALAMARCH KDE PLASMA
 
 Join if you have problems: https://discord.gg/RD7XFBzBZZ 
 
@@ -9,7 +9,7 @@ If somehow `chaotic` doesn't work for you, you need to do this:
 ```
 pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com; pacman-key --lsign-key FBA220DFC880C036
 ```
-
+Issues may be reported in this repo for tracking.
 ## Features
 - Chaotic AUR and multilib enabled
 - Wine installed
@@ -18,7 +18,7 @@ pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com; pacman-
 ## TBA in next month's build:
 ...
 
-# Tips and Tricks
+# Tips and Tricks (IMPORTANT, PLEASE READ !)
 **Games disabling compositor/desktop effects**
 
 Go to `System Settings > Display and Monitor > Compositor` and uncheck "Allow applications to block compositing"
@@ -29,13 +29,13 @@ install `optimus-manager-qt` through Add/Remove Software.
 
 **I'm not using NVIDIA, but using AMDGPU**
 
-First, remove `nvidia-utils` and `lib32-nvidia-utils`
-
-Then, install `amdvlk` and `lib32-amdvlk`
+Install `amdvlk` and `lib32-amdvlk`
 
 If you're using intel graphics, install `vulkan-intel` and `lib32-vulkan-intel`
 
 It is always good to install the 32-bit packages too (WINE requires them)
+
+https://wiki.archlinux.org/title/Vulkan#Installation 
 
 **Wifi not working**
 
