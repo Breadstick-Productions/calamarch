@@ -19,6 +19,15 @@ Issues may be reported in this repo for tracking.
 ...
 
 # Tips and Tricks (IMPORTANT, PLEASE READ !)
+
+**When updating system**
+
+- Always carry a Live USB with an iso in case something happens
+- Make sure your laptop is connected to power
+- You need a stable internet connection
+- **Never interrupt a system update, make sure it runs until finish**
+- If something happens, you need to boot into live usb, mount your system partition, and [arch-chroot](https://wiki.archlinux.org/title/chroot#Using_arch-chroot) into it. Run `pacman -Syu` over there. If you are still confused, you can either visit the [forums](https://bbs.archlinux.org) or the community [discord](https://discord.gg/HTEzWDF) 
+
 **Games disabling compositor/desktop effects**
 
 Go to `System Settings > Display and Monitor > Compositor` and uncheck "Allow applications to block compositing"
